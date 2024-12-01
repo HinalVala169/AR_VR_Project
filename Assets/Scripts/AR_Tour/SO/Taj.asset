@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: Taj
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: 2d37d266811017745a5000466eaee53a, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: Who Built It
+      details:
+      - The Taj Mahal was commissioned by Mughal Emperor Shah Jahan in memory of
+        his wife Mumtaz Mahal, who died during childbirth.
+      - The main architect of the Taj Mahal was Ustad Ahmad Lahori, who led a team
+        of skilled artisans and workers from various regions.
+    - title: Where It Is Located
+      details:
+      - The Taj Mahal is located in Agra, a historic city in Uttar Pradesh, India,
+        which was a significant city during the Mughal Empire.
+      - The mausoleum stands on the southern bank of the Yamuna River, enhancing
+        its scenic beauty with its reflection in the water.
+    - title: When It Was Built
+      details:
+      - Construction of the Taj Mahal began in 1632, shortly after the death of Mumtaz
+        Mahal, and involved over 20,000 workers.
+      - The entire structure, including its surrounding complex, was completed in
+        1653, taking approximately 21 years to finish.
+    - title: How It Is Protected
+      details:
+      - The Taj Mahal became a UNESCO World Heritage Site in 1983, recognised for
+        its cultural and architectural significance.
+      - It is protected and maintained by the Archaeological Survey of India (ASI),
+        which ensures its preservation and upkeep.
+    - title: Why It Was Built
+      details:
+      - Shah Jahan built the Taj Mahal as a mausoleum for Mumtaz Mahal, symbolising
+        his deep love and grief after her death.
+      - The monument was intended to stand as a symbol of eternal love and to immortalise
+        the grandeur of the Mughal Empire's architectural achievements.
