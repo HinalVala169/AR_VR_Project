@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "The Statue of Unity was commissioned by the Government of Gujarat and designed by Indian sculptor Ram V. Sutar.",
+        "The project was initiated by Indian Prime Minister Narendra Modi, who was then the Chief Minister of Gujarat, to honour Sardar Vallabhbhai Patel."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "Construction of the Statue of Unity began in 2013, marking a significant undertaking to create the world’s tallest statue.",
+        "The statue was completed and inaugurated on October 31, 2018, coinciding with Sardar Patel's 143rd birth anniversary."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "The Statue of Unity is located near the Sardar Sarovar Dam on the Narmada River, in the Kevadia district of Gujarat, India.",
+        "It is situated in a scenic area, surrounded by the Vindhyachal and Satpura mountain ranges, making it a popular tourist destination."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "The Statue of Unity is maintained by the Sardar Vallabhbhai Patel Rashtriya Ekta Trust (SVPRET), which oversees the monument and its complex.",
+        "The Central Industrial Security Force (CISF) provides security for the statue and its premises, ensuring the safety of visitors."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "The Statue of Unity was built to honour Sardar Vallabhbhai Patel, India's first Deputy Prime Minister, for his role in uniting the country post-independence.",
+        "It serves as a symbol of national unity and integrity, commemorating Patel’s contributions to the integration of India’s princely states into the Indian Union."
+      ]
+    }
+  ]
+}

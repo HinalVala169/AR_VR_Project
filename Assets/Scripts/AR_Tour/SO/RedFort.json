@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "The Red Fort was commissioned by the Mughal Emperor Shah Jahan in 1638 when he decided to shift the capital of the Mughal Empire from Agra to Delhi.",
+        "It was designed by Ustad Ahmad Lahori, the same architect who designed the Taj Mahal, and took several years to complete, involving thousands of laborers."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "Construction of the Red Fort began in 1638 and was completed in 1648, marking a decade-long effort to build this massive structure.",
+        "It was completed during the reign of Shah Jahan, symbolizing the height of Mughal architecture and their dominance in India."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "The Red Fort is located in the heart of Old Delhi, India, near the banks of the Yamuna River, which made it a strategic site for defense and trade.",
+        "It is situated in close proximity to other historic sites, such as Chandni Chowk and Jama Masjid, adding to the rich cultural tapestry of the area."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "The Red Fort is a UNESCO World Heritage Site, recognized for its architectural splendor and historical importance in India's history.",
+        "It is maintained and preserved by the Archaeological Survey of India (ASI), which ensures its structural integrity and manages public access."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "The Red Fort was built to serve as the main residence of the Mughal emperors and a symbol of their power and authority over India.",
+        "It was also constructed to protect the Mughal capital, showcasing both the military and aesthetic grandeur of Shah Jahan’s reign."
+      ]
+    }
+  ]
+}

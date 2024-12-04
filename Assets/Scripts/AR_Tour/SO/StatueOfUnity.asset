@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: StatueOfUnity
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: 124ce50b374d5f040b9b0a7354a14334, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: Who Built It
+      details:
+      - The Statue of Unity was commissioned by the Government of Gujarat and designed
+        by Indian sculptor Ram V. Sutar.
+      - The project was initiated by Indian Prime Minister Narendra Modi, who was
+        then the Chief Minister of Gujarat, to honour Sardar Vallabhbhai Patel.
+    - title: When It Was Built
+      details:
+      - "Construction of the Statue of Unity began in 2013, marking a significant
+        undertaking to create the world\u2019s tallest statue."
+      - The statue was completed and inaugurated on October 31, 2018, coinciding
+        with Sardar Patel's 143rd birth anniversary.
+    - title: Where It Is Located
+      details:
+      - The Statue of Unity is located near the Sardar Sarovar Dam on the Narmada
+        River, in the Kevadia district of Gujarat, India.
+      - It is situated in a scenic area, surrounded by the Vindhyachal and Satpura
+        mountain ranges, making it a popular tourist destination.
+    - title: Who Is It Protected By
+      details:
+      - The Statue of Unity is maintained by the Sardar Vallabhbhai Patel Rashtriya
+        Ekta Trust (SVPRET), which oversees the monument and its complex.
+      - The Central Industrial Security Force (CISF) provides security for the statue
+        and its premises, ensuring the safety of visitors.
+    - title: Why It Was Built
+      details:
+      - The Statue of Unity was built to honour Sardar Vallabhbhai Patel, India's
+        first Deputy Prime Minister, for his role in uniting the country post-independence.
+      - "It serves as a symbol of national unity and integrity, commemorating Patel\u2019s
+        contributions to the integration of India\u2019s princely states into the
+        Indian Union."
