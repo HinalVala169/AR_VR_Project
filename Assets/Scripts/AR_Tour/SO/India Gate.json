@@ -1,0 +1,39 @@
+{
+  "monumentInformation": [
+    {
+      "title": "Who Built It",
+      "details": [
+        "India Gate was designed by British architect Sir Edwin Lutyens, known for his role in designing New Delhi.",
+        "It was commissioned by the British government as a memorial to honour Indian soldiers who died during World War I."
+      ]
+    },
+    {
+      "title": "When It Was Built",
+      "details": [
+        "Construction of India Gate began in 1921, during the colonial period when New Delhi was being developed as the capital of British India.",
+        "The monument was completed in 1931, taking 10 years to build and becoming a prominent landmark in the newly established city."
+      ]
+    },
+    {
+      "title": "Where It Is Located",
+      "details": [
+        "India Gate is located in the heart of New Delhi, on the eastern end of the ceremonial avenue called Rajpath (now Kartavya Path).",
+        "It stands as a central point in the city’s layout, surrounded by lush green lawns and public spaces frequented by visitors."
+      ]
+    },
+    {
+      "title": "Who Is It Protected By",
+      "details": [
+        "India Gate is maintained by the Indian Army, which is responsible for guarding and preserving the structure and its surrounding area.",
+        "The monument is also under the care of the Central Public Works Department (CPWD), which ensures its maintenance and upkeep as part of New Delhi’s national heritage."
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "details": [
+        "India Gate was built as a war memorial to commemorate the 84,000 Indian soldiers who died during World War I and in other conflicts under British rule.",
+        "It serves as a symbol of sacrifice and valour, and today, the eternal flame of the Amar Jawan Jyoti beneath it honours soldiers who died in later conflicts like the Indo-Pakistan War of 1971."
+      ]
+    }
+  ]
+}

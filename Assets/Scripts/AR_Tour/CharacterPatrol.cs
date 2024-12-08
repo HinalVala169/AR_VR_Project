@@ -13,8 +13,8 @@ public class CharacterPatrol : MonoBehaviour
 
     public int targetPoint;
     public float speed;
-    public float rotationSpeed ; // Speed of rotation
-    public float waitTime ; // Time to wait at each patrol point
+    public float rotationSpeed = 5f; // Speed of rotation
+    public float waitTime = 2f; // Time to wait at each patrol point
 
     private bool isWaiting = false;
     private Coroutine patrolCoroutine;
