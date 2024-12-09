@@ -410,7 +410,6 @@ MonoBehaviour:
   - {x: 0, y: 10, z: -53.3}
   - {x: 0, y: 10, z: -53.3}
   - {x: 0, y: 10, z: -53.3}
-  currentCameraPositionIndex: 0
 --- !u!4 &51462562
 Transform:
   m_ObjectHideFlags: 0
@@ -1539,7 +1538,7 @@ PrefabInstance:
         type: 3}
       propertyPath: monumentSO
       value: 
-      objectReference: {fileID: 11400000, guid: 76a9f5daa8c48fd40a825b0986f53638,
+      objectReference: {fileID: 11400000, guid: bd8a0829968d63342ab21f6151578c16,
         type: 2}
     - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}

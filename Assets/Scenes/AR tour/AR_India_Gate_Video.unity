@@ -69990,6 +69990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: INDIA GATE FINAL FILE
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a0f0b67ba9db5744480c72729c9e8a62,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1929802415694502969, guid: a0f0b67ba9db5744480c72729c9e8a62,
         type: 3}
       propertyPath: m_Mesh
@@ -122339,7 +122344,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AR_Taj
+          m_StringArgument: AR_IndiaGate
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6781942377274391254

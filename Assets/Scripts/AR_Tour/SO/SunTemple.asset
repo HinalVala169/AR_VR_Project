@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afaa1ca15709a2d4d8cb5e5a75565644, type: 3}
+  m_Name: SunTemple
+  m_EditorClassIdentifier: 
+  jsonTextAsset: {fileID: 4900000, guid: 611f67c0d5a4b8543a00a48f59b6e251, type: 3}
+  monumentInformation:
+    monumentInformation:
+    - title: Who Built It
+      details:
+      - The Sun Temple at Konark was commissioned by King Narasimhadeva I of the
+        Eastern Ganga Dynasty to honor the Sun God, Surya.
+      - "The temple's construction was carried out by an army of skilled architects
+        and artisans, symbolizing the king\u2019s devotion and power."
+    - title: When It Was Built
+      details:
+      - The temple was constructed in the 13th century, with its construction beginning
+        around 1243 AD and completed in 1255 AD.
+      - It was built during the reign of Narasimhadeva I, reflecting the architectural
+        brilliance and cultural richness of the Eastern Ganga Dynasty.
+    - title: Where It Is Located
+      details:
+      - The Sun Temple is located in Konark, Odisha, India, near the coastline of
+        the Bay of Bengal, which adds to its striking scenic beauty.
+      - It stands about 35 kilometers from Puri, another famous pilgrimage site,
+        making Konark a significant cultural and religious destination in eastern
+        India.
+    - title: Who Is It Protected By
+      details:
+      - The Sun Temple is a UNESCO World Heritage Site, recognized for its unique
+        architectural style and historical significance.
+      - It is protected and maintained by the Archaeological Survey of India (ASI),
+        which ensures its preservation and conservation.
+    - title: Why It Was Built
+      details:
+      - "The Sun Temple was built to worship the Sun God, Surya, and is designed
+        as a massive chariot with intricately carved wheels and horses, symbolizing
+        Surya\u2019s chariot."
+      - The temple also served as a demonstration of the Eastern Ganga Dynasty's
+        power and architectural expertise, making it a monument of both religious
+        and political significance.

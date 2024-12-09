@@ -1201,6 +1201,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin (AR Rig)
       objectReference: {fileID: 0}
+    - target: {fileID: 2512387470528047719, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2512387470528047737, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_PlanePrefab
@@ -1515,7 +1520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CameraToFace: {fileID: 0}
   m_ObjectPrefabs:
-  - {fileID: 613292779795284151, guid: 59df71f7a78f34b4fa7a971844fc952c, type: 3}
+  - {fileID: 883617349738724674, guid: fb12a7521eb43ef45bf4304c5949743b, type: 3}
   m_SpawnVisualizationPrefab: {fileID: 0}
   m_SpawnOptionIndex: 0
   m_OnlySpawnInView: 1
@@ -4057,7 +4062,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AR_Taj_Video
+          m_StringArgument: AR_Brihadeshwara_Temple_Video
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1016606820
@@ -9896,7 +9901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7007f8f89bbeaed4fa754be0d2a5b098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monumentSO: {fileID: 11400000, guid: c183c0761723c954abb4d66494b6b62f, type: 2}
+  monumentSO: {fileID: 11400000, guid: c60dcc46f7e925b44abd77d38f0dd9b9, type: 2}
   monumentTitle: {fileID: 2939446321511147265}
   monumentInfo1: {fileID: 2847016177069251692}
   monumentInfo2: {fileID: 5707628031359786487}
