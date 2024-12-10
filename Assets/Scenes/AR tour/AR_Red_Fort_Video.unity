@@ -515,7 +515,6 @@ MonoBehaviour:
   - {x: 0, y: 6, z: -50}
   - {x: 0, y: 6, z: -50}
   - {x: 0, y: 6, z: -50}
-  currentCameraPositionIndex: 0
 --- !u!4 &51462562
 Transform:
   m_ObjectHideFlags: 0
@@ -1396,6 +1395,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3b33ff24b68125a4bb0a9d3f1aece473,
         type: 3}
+    - target: {fileID: 6775472440118304718, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: AR_Red_Fort
+      objectReference: {fileID: 0}
     - target: {fileID: 6825487506401231874, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5265,6 +5269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: REDFORT NEW
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b7a867f09aeec09419639c7dd9924ea4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AR tour/Taj Mahal/AR_Taj.unity
     guid: bf55979209ba9f94b8c223e7ec2ab582
   - enabled: 1
-    path: Assets/Scenes/AR tour/Taj Mahal/AR_Taj_Video.unity
+    path: Assets/Scenes/AR tour/AR_Taj_Video.unity
     guid: 828b04e605bda724cb8219abef8f8ddd
   - enabled: 1
     path: Assets/Scenes/AR tour/AR_Brihadeshwara_Temple_Video.unity
