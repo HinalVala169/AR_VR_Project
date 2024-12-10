@@ -515,6 +515,7 @@ MonoBehaviour:
   - {x: 0, y: 6, z: -50}
   - {x: 0, y: 6, z: -50}
   - {x: 0, y: 6, z: -50}
+  currentCameraPositionIndex: 0
 --- !u!4 &51462562
 Transform:
   m_ObjectHideFlags: 0
@@ -3987,7 +3988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1336425970
 Transform:
   m_ObjectHideFlags: 0
@@ -8091,12 +8092,12 @@ MonoBehaviour:
   - {fileID: 1773491092}
   - {fileID: 414108751}
   - {fileID: 1158515173}
-  broadcastPoints: 
+  broadcastPoints: 00000000010000000200000003000000040000000500000006000000
   targetPoint: 0
   speed: 3
   rotationSpeed: 60
   waitTime: 4
-  isMainCharacter: 0
+  isMainCharacter: 1
 --- !u!1 &2774299545848554000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9376,7 +9377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &4895045153717520896
 GameObject:
   m_ObjectHideFlags: 0
@@ -11957,7 +11958,7 @@ GameObject:
   - component: {fileID: 8284026850916372687}
   m_Layer: 0
   m_Name: BOY NEW FILE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

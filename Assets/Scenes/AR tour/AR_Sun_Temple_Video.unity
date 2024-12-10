@@ -410,6 +410,7 @@ MonoBehaviour:
   - {x: 0, y: 10, z: -53.3}
   - {x: 0, y: 10, z: -53.3}
   - {x: 0, y: 10, z: -53.3}
+  currentCameraPositionIndex: 0
 --- !u!4 &51462562
 Transform:
   m_ObjectHideFlags: 0
@@ -13069,7 +13070,7 @@ GameObject:
   - component: {fileID: 5665466888124287309}
   m_Layer: 0
   m_Name: BOY NEW FILE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

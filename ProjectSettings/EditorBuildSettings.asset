@@ -32,6 +32,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR tour/AR_Sun_Temple_Video.unity
     guid: aa9fcfb0542c52540b8ef3d03d40669d
+  - enabled: 1
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_Brihadeshwara.unity
+    guid: efdc378fc61c4fb478ebdd6e8fe84039
+  - enabled: 1
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_IndiaGate.unity
+    guid: b26a000f1339f1d4aac87732eee94d95
+  - enabled: 1
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_Red_Fort.unity
+    guid: 9c85a554dbc9ec141a50c9f1923bf1aa
+  - enabled: 1
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_Snachi_Stupa.unity
+    guid: b9dfdeed1be21cc40b86c1ed1b7fe803
+  - enabled: 1
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_StatueOfUnity.unity
+    guid: e3435c85b4b278640956eab70ea68190
+  - enabled: 1
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_SunTemple.unity
+    guid: 994bf3d452f60b447a94d88635179ed0
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
