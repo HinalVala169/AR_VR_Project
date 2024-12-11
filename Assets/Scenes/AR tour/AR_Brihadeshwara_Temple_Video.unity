@@ -376,9 +376,14 @@ MonoBehaviour:
   mainCamera: {fileID: 210659795}
   mainCameraPositions:
   - {x: 0, y: -2, z: -60}
-  - {x: 3.68, y: -2, z: -27.24}
-  - {x: -4.8, y: -1.67, z: -14.28}
-  - {x: -3.93, y: -2, z: -26}
+  - {x: 0, y: -2, z: -60}
+  - {x: 0, y: -2, z: -28}
+  - {x: 3.988, y: -2, z: -13.49}
+  - {x: 3.988, y: -2, z: 2.95}
+  - {x: -4.54, y: -2, z: 4.9}
+  - {x: -4.54, y: -2, z: -0.28}
+  - {x: -4.54, y: -2, z: -12}
+  - {x: -4.6, y: -2, z: -26}
   - {x: 0, y: -2, z: -60}
   currentCameraPositionIndex: 0
 --- !u!4 &51462562
@@ -1333,6 +1338,7 @@ GameObject:
   - component: {fileID: 210659797}
   - component: {fileID: 210659796}
   - component: {fileID: 210659799}
+  - component: {fileID: 210659800}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1458,6 +1464,19 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &210659800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210659795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraToCenterTrigger: 1
 --- !u!1 &213491689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,76 +2351,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumentSO
-      value: 
-      objectReference: {fileID: 11400000, guid: c60dcc46f7e925b44abd77d38f0dd9b9,
-        type: 2}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 7d3f604cb6193334689289394674ece0,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 25f712dfb54cdfe4b9b9146e09a110be,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 85943e070662510428b07a72d4b414d8,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: a2cdc1357a54ae54da726db3cb6c7597,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: 6526cb12c2a99ff409fdb94484c57929,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[5]
-      value: 
-      objectReference: {fileID: 21300000, guid: 718b0df5f5980404a89f2b4ce0818a26,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[6]
-      value: 
-      objectReference: {fileID: 21300000, guid: a5b4f6d693b895244b41fcbcb853b669,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[7]
-      value: 
-      objectReference: {fileID: 21300000, guid: eeaaefe5a7f0090418fd4a076605a1c6,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[8]
-      value: 
-      objectReference: {fileID: 21300000, guid: 89f91dc228ed77547b25ea2c4bbcb592,
-        type: 3}
-    - target: {fileID: 6775472440118304718, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AR_Brihadeshwara
       objectReference: {fileID: 0}
     - target: {fileID: 6825487506401231874, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}

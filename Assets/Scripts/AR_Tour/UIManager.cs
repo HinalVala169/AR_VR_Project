@@ -133,7 +133,7 @@ public class UIManager : MonoBehaviour
     {
         if (monumentPapyrusObject != null)
         {
-            monumentPapyrusObject.DOScale(1.5f, 0.5f).SetEase(Ease.InBounce);
+            monumentPapyrusObject.DOScale(1f, 0.5f).SetEase(Ease.InBounce);
         }
     }
 

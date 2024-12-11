@@ -409,6 +409,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: StatueOfUnityUpdated
       objectReference: {fileID: 0}
+    - target: {fileID: 8272023173237880043, guid: fa684be1bf1160c45b7bb21090ada5b0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272023173237880043, guid: fa684be1bf1160c45b7bb21090ada5b0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272023173237880043, guid: fa684be1bf1160c45b7bb21090ada5b0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
