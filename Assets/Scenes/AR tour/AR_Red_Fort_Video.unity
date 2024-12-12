@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 52d55542834f2465eb9aed460fd370de, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fe4e130f9947345a2b213cb5038851a2, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -854,7 +854,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1330,86 +1330,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 4210547805313463657, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumentSO
-      value: 
-      objectReference: {fileID: 11400000, guid: 7b143d6e878e5ec44b2ea8ee6d9f3b50,
-        type: 2}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: c4b42b60879ddc24a8c6de3ade4b21e6,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 9806fc7e2b1dbbe4e9ddf8c3b1a1e917,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 1901e8ac4f2653b48974a12451566c9b,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 3833f28d762647f4fbf57e1d9a76014b,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: 944df23d817c5224982ccc9067922574,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[5]
-      value: 
-      objectReference: {fileID: 21300000, guid: 65d72c5cd093d1f45b3b70fbcf37c918,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[6]
-      value: 
-      objectReference: {fileID: 21300000, guid: ef481a9c90220fa48b71855302e47c34,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[7]
-      value: 
-      objectReference: {fileID: 21300000, guid: b2767dd7ee7b09246afddf3822d2b726,
-        type: 3}
-    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[8]
-      value: 
-      objectReference: {fileID: 21300000, guid: 3b33ff24b68125a4bb0a9d3f1aece473,
-        type: 3}
-    - target: {fileID: 6653788353623697814, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6775472440118304718, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AR_Red_Fort
       objectReference: {fileID: 0}
     - target: {fileID: 6825487506401231874, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
@@ -7153,6 +7073,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &1418628258173009016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426133486980959508}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.846418, y: -39.21289, z: 89.137726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1460064426270778236
 Transform:
   m_ObjectHideFlags: 0
@@ -11042,6 +10977,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8348043124732997243}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7426133486980959508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418628258173009016}
+  - component: {fileID: 9198637139982519105}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &7440719795136249574
 GameObject:
   m_ObjectHideFlags: 0
@@ -12193,6 +12145,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9198637139982519105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426133486980959508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 579f683bbd5baf840aa1a2a1dbc377d4, type: 2}
 --- !u!1 &9200147684981265140
 GameObject:
   m_ObjectHideFlags: 0
@@ -12215,6 +12184,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 210659798}
   - {fileID: 156726278}
+  - {fileID: 1418628258173009016}
   - {fileID: 1303055303}
   - {fileID: 1735631917}
   - {fileID: 8348043124732997243}

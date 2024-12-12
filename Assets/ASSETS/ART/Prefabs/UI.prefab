@@ -106,9 +106,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1755503830320676738, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755503830320676738, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1186121203411417179}
+    - target: {fileID: 1755503830320676738, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JumpScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755503830320676738, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Selection Screen
+      objectReference: {fileID: 0}
     - target: {fileID: 3175221710090948638, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_Pivot.x
@@ -318,60 +333,60 @@ PrefabInstance:
     - target: {fileID: 5462453950416416080, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AR_Brihadeshwara
+      value: AR_Red_Fort
       objectReference: {fileID: 0}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumentSO
       value: 
-      objectReference: {fileID: 11400000, guid: c60dcc46f7e925b44abd77d38f0dd9b9,
+      objectReference: {fileID: 11400000, guid: 7b143d6e878e5ec44b2ea8ee6d9f3b50,
         type: 2}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.size
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 7d3f604cb6193334689289394674ece0,
+      objectReference: {fileID: 21300000, guid: c4b42b60879ddc24a8c6de3ade4b21e6,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 25f712dfb54cdfe4b9b9146e09a110be,
+      objectReference: {fileID: 21300000, guid: 9806fc7e2b1dbbe4e9ddf8c3b1a1e917,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 85943e070662510428b07a72d4b414d8,
+      objectReference: {fileID: 21300000, guid: 1901e8ac4f2653b48974a12451566c9b,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: a2cdc1357a54ae54da726db3cb6c7597,
+      objectReference: {fileID: 21300000, guid: 3833f28d762647f4fbf57e1d9a76014b,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 6526cb12c2a99ff409fdb94484c57929,
+      objectReference: {fileID: 21300000, guid: 944df23d817c5224982ccc9067922574,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: 718b0df5f5980404a89f2b4ce0818a26,
+      objectReference: {fileID: 21300000, guid: 65d72c5cd093d1f45b3b70fbcf37c918,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: a5b4f6d693b895244b41fcbcb853b669,
+      objectReference: {fileID: 21300000, guid: ef481a9c90220fa48b71855302e47c34,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
