@@ -2372,6 +2372,65 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 13936baf47352014fbfa57368191d6a2,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: a66a3c5c76391c045b35086da4bbe5fc,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: afd652b9ee09e744a856a1ca162ad577,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: cf2fc0613e8240c428116a3e8db4e928,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 36589dea7b35cb341954710724f1e602,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 178ae2a842c3a664fb2289cbf5e09b73,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e259dff6c48b9d47b4cb9a625fae1d5,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05c3e1f64c314da4897a3a3ae2fe9d64,
+        type: 3}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumnetInfoSprite.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: cfdd482f7a626f5409e57310bcac896d,
+        type: 3}
     - target: {fileID: 6825487506401231874, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
       propertyPath: m_LocalPosition.x

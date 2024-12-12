@@ -39259,8 +39259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 2706157885245661603}
   mainCameraPositions:
-  - {x: 0, y: 10, z: 3}
-  - {x: 0, y: 10, z: -50}
+  - {x: 0, y: 4, z: -34}
+  - {x: 0, y: 4, z: -43}
   currentCameraPositionIndex: 0
 --- !u!4 &394089463
 Transform:
@@ -39539,6 +39539,7 @@ GameObject:
   - component: {fileID: 408028156}
   - component: {fileID: 408028155}
   - component: {fileID: 408028154}
+  - component: {fileID: 408028158}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -39632,6 +39633,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6883744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408028158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408028153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraToCenterTrigger: 1
 --- !u!1 &410685742
 GameObject:
   m_ObjectHideFlags: 0
@@ -96688,6 +96702,7 @@ GameObject:
   - component: {fileID: 1539515344}
   - component: {fileID: 1539515343}
   - component: {fileID: 1539515342}
+  - component: {fileID: 1539515346}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: Untagged
@@ -96781,6 +96796,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6883744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1539515346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539515341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56846e87fb82ffc488365744c2e1acb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraToCenterTrigger: 1
 --- !u!1 &1545811560
 GameObject:
   m_ObjectHideFlags: 0
@@ -127322,13 +127350,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2706157885245661603}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: 10, z: -50}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2503308501807178696
 GameObject:
   m_ObjectHideFlags: 0
@@ -129767,15 +129795,15 @@ MonoBehaviour:
   - {fileID: 876695079658580532}
   - {fileID: 7239366815428362872}
   monumnetInfoSprite:
-  - {fileID: 21300000, guid: 79ba4af90bbc77042800248757f63516, type: 3}
-  - {fileID: 21300000, guid: 305b3917d3a6d9745b438c037a57f9ea, type: 3}
-  - {fileID: 21300000, guid: 47655bd61462d2d43a0e964b389466ce, type: 3}
-  - {fileID: 21300000, guid: 3433b1583e4b640418db5ce39f201394, type: 3}
-  - {fileID: 21300000, guid: 7085a16f5d8d9fe4589c1d5de9352d8d, type: 3}
-  - {fileID: 21300000, guid: 5351b93bcd312e34b8f8cf00ba197ae1, type: 3}
-  - {fileID: 21300000, guid: e3801fde2380722408ddf71b43f5646f, type: 3}
-  - {fileID: 21300000, guid: 18278a00bfba9d949ad02690eddd9da1, type: 3}
-  - {fileID: 21300000, guid: a1d17e2ae1c540643a0096df85542eb4, type: 3}
+  - {fileID: 21300000, guid: 4848f77135c6bf248bf8c4d9eebe0d05, type: 3}
+  - {fileID: 21300000, guid: 252ee50630828b44e921af427d8c43f6, type: 3}
+  - {fileID: 21300000, guid: 644119b420af4c4478dac6f427acddc3, type: 3}
+  - {fileID: 21300000, guid: 9db7538cd1d73984fb4df24d47a22fd4, type: 3}
+  - {fileID: 21300000, guid: e947563d61ed11447b0ad72bd20bd444, type: 3}
+  - {fileID: 21300000, guid: e2761ef3005472c4f95e664551b05281, type: 3}
+  - {fileID: 21300000, guid: a1f68d12851fe3e4ea81e36edfa7ce8f, type: 3}
+  - {fileID: 21300000, guid: 5b9699275d072014e813b2493e23c18d, type: 3}
+  - {fileID: 21300000, guid: f80bfaaf94b124b4f947910d788c1db5, type: 3}
 --- !u!1 &5281247109676410959
 GameObject:
   m_ObjectHideFlags: 0
@@ -132760,7 +132788,7 @@ SceneRoots:
   - {fileID: 257694477}
   - {fileID: 6825487505235115500}
   - {fileID: 4168503627773025134}
-  - {fileID: 535458063}
   - {fileID: 1738375330}
   - {fileID: 6883744}
   - {fileID: 1941889273}
+  - {fileID: 535458063}
