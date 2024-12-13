@@ -4261,42 +4261,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6440792329715034149}
-    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 450a2953ddea1964aa26b0e05d23e5ce,
-        type: 3}
-    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: f4db3c98836e6c941a9d3e0bb8d887d9,
-        type: 3}
-    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 47e442307f29da04abcb5bd815dc882f,
-        type: 3}
-    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 59dbe1bedbb62f3459f7712eb837f93e,
-        type: 3}
-    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: 824ab3c58428108459f9fa13cc2b9b70,
-        type: 3}
-    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
-        type: 3}
-      propertyPath: monumnetInfoSprite.Array.data[5]
-      value: 
-      objectReference: {fileID: 21300000, guid: 1102dbf976db6b540970d312abb95f7a,
-        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

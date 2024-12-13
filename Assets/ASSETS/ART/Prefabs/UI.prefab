@@ -277,12 +277,12 @@ PrefabInstance:
     - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 370
       objectReference: {fileID: 0}
     - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -540
+      value: -470
       objectReference: {fileID: 0}
     - target: {fileID: 3552232067531824414, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
@@ -322,17 +322,17 @@ PrefabInstance:
     - target: {fileID: 3920288788115425817, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3920288788115425817, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3920288788115425817, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3920288788115425817, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
@@ -373,7 +373,7 @@ PrefabInstance:
     - target: {fileID: 5462453950416416080, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AR_SunTemple
+      value: AR_StatueOfUnity
       objectReference: {fileID: 0}
     - target: {fileID: 6194302307697751433, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
@@ -385,66 +385,66 @@ PrefabInstance:
         type: 3}
       propertyPath: monumentSO
       value: 
-      objectReference: {fileID: 11400000, guid: bd8a0829968d63342ab21f6151578c16,
+      objectReference: {fileID: 11400000, guid: 76a9f5daa8c48fd40a825b0986f53638,
         type: 2}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.size
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 03613f3a7ffb7b64c83fccd9558dcc97,
+      objectReference: {fileID: 21300000, guid: 0b56de96b704f0347b0d421b7a14bf1a,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 6066fc0cdbd4e4c46aaea0881cfdaf80,
+      objectReference: {fileID: 21300000, guid: fde9191e0cdc8e3449fdaea148ddd80a,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 46571ef34f5aa254996395c3cee1291c,
+      objectReference: {fileID: 21300000, guid: 5ec09dd559f0db34cb1f594e1b45fc77,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: 528b8481e4953524c8ed1c3a3c36ab02,
+      objectReference: {fileID: 21300000, guid: 0bf952634e4cad84d8c03642d8736100,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 978319ab7a69c11439886725c1621dcf,
+      objectReference: {fileID: 21300000, guid: 917b59730d7cd634ebd1be38ae40ca56,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: c4d288d6e91b925449f6e31a28039d23,
+      objectReference: {fileID: 21300000, guid: c2f02974c2d1515498de0832e883d1f4,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: b6b068c3e2978304792b5e545562b66a,
+      objectReference: {fileID: 21300000, guid: 2e259dff6c48b9d47b4cb9a625fae1d5,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[7]
       value: 
-      objectReference: {fileID: 21300000, guid: 263d6c911f92a7e4aa7a8e77a450b301,
+      objectReference: {fileID: 21300000, guid: 05c3e1f64c314da4897a3a3ae2fe9d64,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[8]
       value: 
-      objectReference: {fileID: 21300000, guid: 89f91dc228ed77547b25ea2c4bbcb592,
+      objectReference: {fileID: 21300000, guid: cfdd482f7a626f5409e57310bcac896d,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
