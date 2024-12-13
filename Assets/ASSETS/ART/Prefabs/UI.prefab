@@ -104,6 +104,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6825487506401231874}
     m_Modifications:
+    - target: {fileID: 1661567963669110384, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -36.299805
+      objectReference: {fileID: 0}
     - target: {fileID: 1755503830320676738, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -123,6 +128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Selection Screen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867996327379107234, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 53.75
       objectReference: {fileID: 0}
     - target: {fileID: 3175221710090948638, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
@@ -224,6 +234,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3278041561920000985, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 120.631836
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1152.6995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -242,7 +277,12 @@ PrefabInstance:
     - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -380
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286378119685940258, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -540
       objectReference: {fileID: 0}
     - target: {fileID: 3552232067531824414, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
@@ -333,66 +373,72 @@ PrefabInstance:
     - target: {fileID: 5462453950416416080, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AR_Red_Fort
+      value: AR_SunTemple
       objectReference: {fileID: 0}
+    - target: {fileID: 6194302307697751433, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 03613f3a7ffb7b64c83fccd9558dcc97,
+        type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumentSO
       value: 
-      objectReference: {fileID: 11400000, guid: 7b143d6e878e5ec44b2ea8ee6d9f3b50,
+      objectReference: {fileID: 11400000, guid: bd8a0829968d63342ab21f6151578c16,
         type: 2}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: c4b42b60879ddc24a8c6de3ade4b21e6,
+      objectReference: {fileID: 21300000, guid: 03613f3a7ffb7b64c83fccd9558dcc97,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 9806fc7e2b1dbbe4e9ddf8c3b1a1e917,
+      objectReference: {fileID: 21300000, guid: 6066fc0cdbd4e4c46aaea0881cfdaf80,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 1901e8ac4f2653b48974a12451566c9b,
+      objectReference: {fileID: 21300000, guid: 46571ef34f5aa254996395c3cee1291c,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: 3833f28d762647f4fbf57e1d9a76014b,
+      objectReference: {fileID: 21300000, guid: 528b8481e4953524c8ed1c3a3c36ab02,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 944df23d817c5224982ccc9067922574,
+      objectReference: {fileID: 21300000, guid: 978319ab7a69c11439886725c1621dcf,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: 65d72c5cd093d1f45b3b70fbcf37c918,
+      objectReference: {fileID: 21300000, guid: c4d288d6e91b925449f6e31a28039d23,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: ef481a9c90220fa48b71855302e47c34,
+      objectReference: {fileID: 21300000, guid: b6b068c3e2978304792b5e545562b66a,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
       propertyPath: monumnetInfoSprite.Array.data[7]
       value: 
-      objectReference: {fileID: 21300000, guid: eeaaefe5a7f0090418fd4a076605a1c6,
+      objectReference: {fileID: 21300000, guid: 263d6c911f92a7e4aa7a8e77a450b301,
         type: 3}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
