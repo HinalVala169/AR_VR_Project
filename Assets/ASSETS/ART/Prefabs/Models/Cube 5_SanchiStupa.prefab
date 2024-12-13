@@ -268,8 +268,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0219, y: 0.0621, z: -0.0117}
-  m_LocalScale: {x: 0.3014365, y: 0.0670308, z: 0.6382403}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2636073925818593651}
   m_Father: {fileID: 1058943843021386550}
@@ -508,6 +508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673973950734301179, guid: abd933b46c139ef4c9b3fd22f391d586,
+        type: 3}
+      propertyPath: m_TerrainData
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
