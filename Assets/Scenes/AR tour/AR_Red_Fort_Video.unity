@@ -515,7 +515,6 @@ MonoBehaviour:
   - {x: 0, y: 6, z: -50}
   - {x: 0, y: 6, z: -50}
   - {x: 0, y: 6, z: -50}
-  currentCameraPositionIndex: 0
 --- !u!4 &51462562
 Transform:
   m_ObjectHideFlags: 0
@@ -3911,9 +3910,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244410146}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.025, y: 0.025, z: 0.025}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 415481699}
@@ -3923,7 +3922,7 @@ Transform:
   - {fileID: 1773491092}
   - {fileID: 414108751}
   - {fileID: 1158515173}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1735631918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303055302
 GameObject:
@@ -5378,6 +5377,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 594524109}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7a867f09aeec09419639c7dd9924ea4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8348043124732997243}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7a867f09aeec09419639c7dd9924ea4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244410147}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a867f09aeec09419639c7dd9924ea4, type: 3}
 --- !u!4 &1735631918 stripped
@@ -11751,9 +11758,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9056600965102773848}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.93, y: 0, z: -39.1}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.09825, y: 0, z: 0.97749996}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6790519612461262347}
@@ -11772,7 +11779,7 @@ Transform:
   - {fileID: 7610554948295362223}
   - {fileID: 3373153029815555574}
   - {fileID: 389358834173539887}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1735631918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8364408569638527025
 Transform:
@@ -12362,10 +12369,8 @@ SceneRoots:
   - {fileID: 1418628258173009016}
   - {fileID: 1303055303}
   - {fileID: 1735631917}
-  - {fileID: 8348043124732997243}
   - {fileID: 7165602265372256256}
   - {fileID: 1336425970}
-  - {fileID: 1244410147}
   - {fileID: 51462562}
   - {fileID: 574402112}
   - {fileID: 2052419475}

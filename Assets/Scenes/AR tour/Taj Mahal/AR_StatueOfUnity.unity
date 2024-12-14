@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CameraToFace: {fileID: 0}
   m_ObjectPrefabs:
-  - {fileID: 8578125622260585471, guid: 4af45dcb2404a774fb3ba849cfdb7830, type: 3}
+  - {fileID: 5309709020785681323, guid: 97c902130461e5e4f9a4b2930bf0ae96, type: 3}
   m_SpawnVisualizationPrefab: {fileID: 0}
   m_SpawnOptionIndex: 0
   m_OnlySpawnInView: 1
@@ -1523,6 +1523,7 @@ MonoBehaviour:
   m_ApplyRandomAngleAtSpawn: 0
   m_SpawnAngleRange: 45
   m_SpawnAsChildren: 1
+  m_HasSpawned: 0
 --- !u!4 &436358034
 Transform:
   m_ObjectHideFlags: 0

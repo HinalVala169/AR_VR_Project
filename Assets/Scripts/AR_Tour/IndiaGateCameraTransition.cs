@@ -7,8 +7,6 @@ public class IndiaGateCameraTransition : MonoBehaviour
     [SerializeField] private GameObject mainCamera;
     [SerializeField] private List<Vector3> mainCameraPositions;
 
-
-    [SerializeField]
     private int currentCameraPositionIndex = 0;
 
     private void OnEnable()
