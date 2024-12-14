@@ -385,7 +385,6 @@ MonoBehaviour:
   - {x: -4.54, y: -2, z: -12}
   - {x: -4.6, y: -2, z: -26}
   - {x: 0, y: -2, z: -60}
-  currentCameraPositionIndex: 0
 --- !u!4 &51462562
 Transform:
   m_ObjectHideFlags: 0
@@ -2347,36 +2346,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2571116981232973959, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2571116981232973959, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2571116981232973959, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2571116981232973959, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2571116981232973959, guid: d3ab2fb1ede0822469ad0604f9b1a621,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -20
-      objectReference: {fileID: 0}
     - target: {fileID: 4210547805313463657, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
+      propertyPath: monumentSO
+      value: 
+      objectReference: {fileID: 11400000, guid: c60dcc46f7e925b44abd77d38f0dd9b9,
+        type: 2}
     - target: {fileID: 6825487506401231874, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
       propertyPath: m_LocalPosition.x

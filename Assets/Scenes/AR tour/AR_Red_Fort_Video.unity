@@ -1357,6 +1357,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
+      propertyPath: monumentSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7b143d6e878e5ec44b2ea8ee6d9f3b50,
+        type: 2}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
       propertyPath: monumnetInfoSprite.Array.size
       value: 7
       objectReference: {fileID: 0}

@@ -21,12 +21,6 @@ MonoBehaviour:
         Eastern Ganga Dynasty to honor the Sun God, Surya.
       - "The temple's construction was carried out by an army of skilled architects
         and artisans, symbolizing the king\u2019s devotion and power."
-    - title: When It Was Built
-      details:
-      - The temple was constructed in the 13th century, with its construction beginning
-        around 1243 AD and completed in 1255 AD.
-      - It was built during the reign of Narasimhadeva I, reflecting the architectural
-        brilliance and cultural richness of the Eastern Ganga Dynasty.
     - title: Where It Is Located
       details:
       - The Sun Temple is located in Konark, Odisha, India, near the coastline of
@@ -34,7 +28,13 @@ MonoBehaviour:
       - It stands about 35 kilometers from Puri, another famous pilgrimage site,
         making Konark a significant cultural and religious destination in eastern
         India.
-    - title: Who Is It Protected By
+    - title: When It Was Built
+      details:
+      - The temple was constructed in the 13th century, with its construction beginning
+        around 1243 AD and completed in 1255 AD.
+      - It was built during the reign of Narasimhadeva I, reflecting the architectural
+        brilliance and cultural richness of the Eastern Ganga Dynasty.
+    - title: How Is It Protected By
       details:
       - The Sun Temple is a UNESCO World Heritage Site, recognized for its unique
         architectural style and historical significance.

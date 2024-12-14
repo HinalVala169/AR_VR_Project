@@ -22,20 +22,20 @@ MonoBehaviour:
       - It was designed and constructed by skilled artisans and architects under
         the Chola dynasty, with Raja Raja I overseeing the temple's grandeur and
         detail.
+    - title: Where It Is Located
+      details:
+      - The Brihadeeswara Temple is located in Thanjavur, Tamil Nadu, India, which
+        was the capital of the Chola Empire at the time of its construction.
+      - The temple stands within the heart of the city, surrounded by lush grounds,
+        and is part of a UNESCO World Heritage Site known as the 'Great Living Chola
+        Temples.'
     - title: When It Was Built
       details:
       - The construction of the Brihadeeswara Temple began around 1003 AD and was
         completed in 1010 AD, making it over a thousand years old.
       - The temple was completed during the height of the Chola Empire, reflecting
         their architectural mastery and artistic achievements.
-    - title: Where It Is Located
-      details:
-      - The Brihadeeswara Temple is located in Thanjavur, Tamil Nadu, India, which
-        was the capital of the Chola Empire at the time of its construction.
-      - The temple stands within the heart of the city, surrounded by lush grounds,
-        and is part of a UNESCO World Heritage Site known as the Great Living Chola
-        Temples.
-    - title: Who Is It Protected By
+    - title: How Is It Protected By
       details:
       - The Brihadeeswara Temple is protected as a UNESCO World Heritage Site, recognising
         its cultural and historical importance globally.
@@ -44,6 +44,6 @@ MonoBehaviour:
     - title: Why It Was Built
       details:
       - Rajaraja I built the Brihadeeswara Temple as a dedication to Lord Shiva,
-        specifically to honour him as Rajarajeshwara, meaning the Lord of Rajaraja.
+        specifically to honour him as 'Rajarajeshwara,' meaning the 'Lord of Rajaraja.'
       - The temple was also constructed to symbolise the might and wealth of the
         Chola Empire, showcasing their dominance in architecture, culture, and devotion.
