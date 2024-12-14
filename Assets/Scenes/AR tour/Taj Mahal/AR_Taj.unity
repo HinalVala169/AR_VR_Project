@@ -9916,12 +9916,12 @@ MonoBehaviour:
   - {fileID: 8274921888158231617}
   - {fileID: 1912813616432448525}
   monumnetInfoSprite:
-  - {fileID: 21300000, guid: d1c5c7fec37e7e44ba682995bdcf564b, type: 3}
-  - {fileID: 21300000, guid: 7212131d768b46a4fa18addfecfed4b8, type: 3}
-  - {fileID: 21300000, guid: a7b0c757e9ecdac44a283fe2b10ad9fd, type: 3}
-  - {fileID: 21300000, guid: 607f42bdc4938ed4e83a8f8588cfcb54, type: 3}
-  - {fileID: 21300000, guid: a393b042cc33a874f98ec2dc100edec3, type: 3}
-  - {fileID: 21300000, guid: ebea8e46c59b1944083ea0c740d5f5ce, type: 3}
+  - {fileID: 21300000, guid: 450a2953ddea1964aa26b0e05d23e5ce, type: 3}
+  - {fileID: 21300000, guid: f4db3c98836e6c941a9d3e0bb8d887d9, type: 3}
+  - {fileID: 21300000, guid: 47e442307f29da04abcb5bd815dc882f, type: 3}
+  - {fileID: 21300000, guid: 59dbe1bedbb62f3459f7712eb837f93e, type: 3}
+  - {fileID: 21300000, guid: 824ab3c58428108459f9fa13cc2b9b70, type: 3}
+  - {fileID: 21300000, guid: 1102dbf976db6b540970d312abb95f7a, type: 3}
 --- !u!222 &4101671942021488928
 CanvasRenderer:
   m_ObjectHideFlags: 0

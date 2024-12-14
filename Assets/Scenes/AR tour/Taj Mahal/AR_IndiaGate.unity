@@ -9920,12 +9920,15 @@ MonoBehaviour:
   - {fileID: 8274921888158231617}
   - {fileID: 1912813616432448525}
   monumnetInfoSprite:
-  - {fileID: 21300000, guid: d1c5c7fec37e7e44ba682995bdcf564b, type: 3}
-  - {fileID: 21300000, guid: 7212131d768b46a4fa18addfecfed4b8, type: 3}
-  - {fileID: 21300000, guid: a7b0c757e9ecdac44a283fe2b10ad9fd, type: 3}
-  - {fileID: 21300000, guid: 607f42bdc4938ed4e83a8f8588cfcb54, type: 3}
-  - {fileID: 21300000, guid: a393b042cc33a874f98ec2dc100edec3, type: 3}
-  - {fileID: 21300000, guid: ebea8e46c59b1944083ea0c740d5f5ce, type: 3}
+  - {fileID: 21300000, guid: 4848f77135c6bf248bf8c4d9eebe0d05, type: 3}
+  - {fileID: 21300000, guid: 252ee50630828b44e921af427d8c43f6, type: 3}
+  - {fileID: 21300000, guid: 644119b420af4c4478dac6f427acddc3, type: 3}
+  - {fileID: 21300000, guid: 9db7538cd1d73984fb4df24d47a22fd4, type: 3}
+  - {fileID: 21300000, guid: e947563d61ed11447b0ad72bd20bd444, type: 3}
+  - {fileID: 21300000, guid: e2761ef3005472c4f95e664551b05281, type: 3}
+  - {fileID: 21300000, guid: a1f68d12851fe3e4ea81e36edfa7ce8f, type: 3}
+  - {fileID: 21300000, guid: 5b9699275d072014e813b2493e23c18d, type: 3}
+  - {fileID: 21300000, guid: f80bfaaf94b124b4f947910d788c1db5, type: 3}
 --- !u!222 &4101671942021488928
 CanvasRenderer:
   m_ObjectHideFlags: 0
