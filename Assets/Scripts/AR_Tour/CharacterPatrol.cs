@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class CharacterPatrol : MonoBehaviour
     public float speed;
     public float rotationSpeed = 5f; // Speed of rotation
     public float waitTime = 2f; // Time to wait at each patrol point
+    public List<float> waitTimeList;
 
     private bool isWaiting = false;
     private Coroutine patrolCoroutine;
@@ -75,15 +77,18 @@ public class CharacterPatrol : MonoBehaviour
 
             if (broadcastPoints.Contains(targetPoint))
             {
+                int broadcastIndex = broadcastPoints.IndexOf(targetPoint);
                 if (isMainCharacter) // Only the main character broadcasts
                 {
                     // Get the index of the patrol point in the broadcast list
-                    int broadcastIndex = broadcastPoints.IndexOf(targetPoint);
+                    
+                    Debug.Log("----> :" + broadcastIndex);
                     OnInfoPointReached?.Invoke(broadcastIndex); // Broadcast the index
                 }
 
                 // Wait at the patrol point for a specified time before moving to the next
-                yield return new WaitForSeconds(waitTime);
+              //  yield return new WaitForSeconds(waitTime);
+              yield return new WaitForSeconds(waitTimeList[broadcastIndex]);
             }
 
             // Increase the target point index

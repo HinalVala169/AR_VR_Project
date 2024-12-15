@@ -95,7 +95,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6712973855841286682
 RectTransform:
   m_ObjectHideFlags: 0
@@ -247,7 +247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30.846, y: 3.8218803}
+  m_AnchoredPosition: {x: 30.846, y: 209}
   m_SizeDelta: {x: 2350.121, y: 1257.769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2097253633000780965
@@ -281,8 +281,8 @@ MonoBehaviour:
   m_text: Remember to stay aware of your physical surroundings while playing AR games,
     and let your parents know if you feel sick or nauseous.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 75220163a77daa540b7c979ad6471459, type: 2}
-  m_sharedMaterial: {fileID: 5722753259121907696, guid: 75220163a77daa540b7c979ad6471459,
+  m_fontAsset: {fileID: 11400000, guid: a1ce47c5ff257e645a984012b21d25e4, type: 2}
+  m_sharedMaterial: {fileID: -994395661153328051, guid: a1ce47c5ff257e645a984012b21d25e4,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
