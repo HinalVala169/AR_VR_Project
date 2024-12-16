@@ -1412,14 +1412,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598712747653549419}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.07265213, y: 0.4460637, z: 0.018331658}
-  m_LocalScale: {x: 0.002653959, y: 0.011934815, z: 0.0012534467}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.092, z: 0}
+  m_LocalScale: {x: 0.0008, y: 0.00080000004, z: 0.0007999999}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4245225755573992277}
-  m_Father: {fileID: 3767218998224672482}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_Father: {fileID: 790086389465767452}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631727426020704508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3181,6 +3181,7 @@ MonoBehaviour:
   speed: 3
   rotationSpeed: 80
   waitTime: 5
+  waitTimeList: []
   isMainCharacter: 1
 --- !u!95 &5436745719108858076
 Animator:
@@ -4303,6 +4304,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2072461527468390016}
+  - {fileID: 1571646363371063734}
   - {fileID: 2306344669877708372}
   - {fileID: 3767218998224672482}
   m_Father: {fileID: 0}
@@ -6967,8 +6969,7 @@ Transform:
   m_LocalPosition: {x: -0.0219, y: 0.0621, z: -0.0117}
   m_LocalScale: {x: 0.30143645, y: 0.06703079, z: 0.6382401}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 1571646363371063734}
+  m_Children: []
   m_Father: {fileID: 790086389465767452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2632106662624642005
@@ -8394,7 +8395,7 @@ PrefabInstance:
     - target: {fileID: -3174865735559272011, guid: dc9f20d340f1fd041b58be6af071de83,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -221239174573339541, guid: dc9f20d340f1fd041b58be6af071de83,
         type: 3}
@@ -8432,6 +8433,16 @@ PrefabInstance:
       value: STATUE OF UNITY VERSION 1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dc9f20d340f1fd041b58be6af071de83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3587788796799408565, guid: dc9f20d340f1fd041b58be6af071de83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387339473597475839, guid: dc9f20d340f1fd041b58be6af071de83,
         type: 3}
       propertyPath: m_IsActive
       value: 1
