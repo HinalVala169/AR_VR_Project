@@ -2404,6 +2404,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
         type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 2651570455551359856}
+    - target: {fileID: 5209035651890659058, guid: d3ab2fb1ede0822469ad0604f9b1a621,
+        type: 3}
       propertyPath: monumentSO
       value: 
       objectReference: {fileID: 11400000, guid: c60dcc46f7e925b44abd77d38f0dd9b9,
@@ -11817,6 +11822,7 @@ MonoBehaviour:
   - {fileID: 1659368249}
   - {fileID: 1199091834}
   broadcastPoints: 00000000020000000300000004000000060000000700000008000000090000000b000000
+  broadcastIndex: 0
   targetPoint: 0
   speed: 3
   rotationSpeed: 60
@@ -12818,6 +12824,7 @@ MonoBehaviour:
   - {fileID: 1195370795}
   - {fileID: 213491690}
   broadcastPoints: 00000000020000000300000004000000060000000700000008000000090000000b000000
+  broadcastIndex: 0
   targetPoint: 0
   speed: 3
   rotationSpeed: 80

@@ -6227,6 +6227,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 6459791811645458366, guid: 381a11ef80fa4ab45a4249b49f02a2a2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8179491894850139890, guid: 381a11ef80fa4ab45a4249b49f02a2a2,
         type: 3}
       propertyPath: m_NavMeshData
@@ -6417,6 +6422,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 421671953}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &421671955 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3964667405764562745, guid: 381a11ef80fa4ab45a4249b49f02a2a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 421671953}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902318796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f0057dd3562174a8b0a89d726aecd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &425410336
 GameObject:
   m_ObjectHideFlags: 0
@@ -24799,6 +24816,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
         type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 421671955}
+    - target: {fileID: 6738492215783656556, guid: 872708aab2be36e4cb300ee577480d71,
+        type: 3}
       propertyPath: monumnetInfoSprite.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -28998,6 +29020,7 @@ MonoBehaviour:
   - {fileID: 488656561}
   - {fileID: 81145934}
   broadcastPoints: 01000000040000000600000007000000090000000c000000
+  broadcastIndex: 0
   targetPoint: 0
   speed: 0.03
   rotationSpeed: 60

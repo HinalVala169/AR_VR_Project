@@ -11,6 +11,7 @@ public class CharacterPatrol : MonoBehaviour
     public Transform[] patrolPoints;
     public List<int> broadcastPoints;
     private int currentBroadcastIndex;
+    public int broadcastIndex;
 
     public int targetPoint;
     public float speed;
@@ -77,7 +78,7 @@ public class CharacterPatrol : MonoBehaviour
 
             if (broadcastPoints.Contains(targetPoint))
             {
-                int broadcastIndex = broadcastPoints.IndexOf(targetPoint);
+                broadcastIndex = broadcastPoints.IndexOf(targetPoint);
                 if (isMainCharacter) // Only the main character broadcasts
                 {
                     // Get the index of the patrol point in the broadcast list

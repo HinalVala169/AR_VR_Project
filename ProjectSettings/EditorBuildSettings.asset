@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AR tour/Taj Mahal/AR_Red_Fort.unity
     guid: 9c85a554dbc9ec141a50c9f1923bf1aa
   - enabled: 1
-    path: Assets/Scenes/AR tour/AR_Snachi_Stupa.unity
+    path: Assets/Scenes/AR tour/Taj Mahal/AR_Snachi_Stupa.unity
     guid: b9dfdeed1be21cc40b86c1ed1b7fe803
   - enabled: 1
     path: Assets/Scenes/AR tour/Taj Mahal/AR_StatueOfUnity.unity

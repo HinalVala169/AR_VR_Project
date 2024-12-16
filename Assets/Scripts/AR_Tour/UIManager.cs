@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public CharacterPatrol  character;
     [SerializeField] MonumentInfoSO monumentSO;
     [SerializeField] private TextMeshProUGUI monumentTitle;
     [SerializeField] private TextMeshProUGUI monumentInfo1;
@@ -114,7 +115,7 @@ public class UIManager : MonoBehaviour
         if (monumentPapyrusObject != null)
         {
             PapyrusSlideIn();
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(character.waitTimeList[character.broadcastIndex]);
             PapyrusSlideOut();
         }
     }

@@ -122494,6 +122494,7 @@ MonoBehaviour:
   - {fileID: 838009228}
   - {fileID: 747062041}
   broadcastPoints: 000000000200000005000000060000000700000008000000090000000c0000000e000000
+  broadcastIndex: 0
   targetPoint: 0
   speed: 3
   rotationSpeed: 60
@@ -130359,6 +130360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7007f8f89bbeaed4fa754be0d2a5b098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 2092443933201248437}
   monumentSO: {fileID: 11400000, guid: 05b80b3aa826d6e4e8f0dffff7622dc5, type: 2}
   monumentTitle: {fileID: 6212657144725463412}
   monumentInfo1: {fileID: 6448708521443170841}

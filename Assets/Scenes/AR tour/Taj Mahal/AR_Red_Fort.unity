@@ -10236,7 +10236,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -10846,6 +10846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7007f8f89bbeaed4fa754be0d2a5b098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
   monumentSO: {fileID: 11400000, guid: 7b143d6e878e5ec44b2ea8ee6d9f3b50, type: 2}
   monumentTitle: {fileID: 2939446321511147265}
   monumentInfo1: {fileID: 2847016177069251692}
@@ -12935,7 +12936,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -13475,6 +13476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7007f8f89bbeaed4fa754be0d2a5b098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
   monumentSO: {fileID: 11400000, guid: 7b143d6e878e5ec44b2ea8ee6d9f3b50, type: 2}
   monumentTitle: {fileID: 794895093512762637}
   monumentInfo1: {fileID: 7734553715153387006}
