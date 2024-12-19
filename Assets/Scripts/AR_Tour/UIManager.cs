@@ -143,7 +143,9 @@ public class UIManager : MonoBehaviour
         if (monumentPapyrusObject != null)
         {
             monumentPapyrusObject.DOScale(0f, 0.5f).SetEase(Ease.InBounce);
+
         }
+        AudioManager.Instance.ClipToEnd();
     }
 
     private void Update()

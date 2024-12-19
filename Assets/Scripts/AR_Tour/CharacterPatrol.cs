@@ -82,7 +82,7 @@ public class CharacterPatrol : MonoBehaviour
                 if (isMainCharacter) // Only the main character broadcasts
                 {
                     // Get the index of the patrol point in the broadcast list
-                    
+                    AudioManager.Instance.PlayNextVoiceOverClip();
                     Debug.Log("----> :" + broadcastIndex);
                     OnInfoPointReached?.Invoke(broadcastIndex); // Broadcast the index
                 }
