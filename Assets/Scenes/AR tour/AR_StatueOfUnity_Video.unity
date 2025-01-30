@@ -478,6 +478,11 @@ PrefabInstance:
       objectReference: {fileID: 6310115965891935002}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
+      propertyPath: visitAgainClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d2ae2b7696cc9a04b964148ba740a33d, type: 3}
+    - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
+        type: 3}
       propertyPath: voiceOverClips.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -485,37 +490,37 @@ PrefabInstance:
         type: 3}
       propertyPath: voiceOverClips.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 5a0ef332b5add7e4a9fdf94fb501fdb3, type: 3}
+      objectReference: {fileID: 8300000, guid: 6b7cfe039f7c37b4e98460657b5bbc25, type: 3}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: voiceOverClips.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 3fe4c8aa8ac352042b9dc037e7bf9170, type: 3}
+      objectReference: {fileID: 8300000, guid: 55ed56c18dcc2ae48ac9e798eee49d41, type: 3}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: voiceOverClips.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: 16a262419b11cf642854af2c0994a6a3, type: 3}
+      objectReference: {fileID: 8300000, guid: 00ab427fac0795f4a8f4d1a9efe23f84, type: 3}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: voiceOverClips.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: c3f57a54e58f92542a7db4b11bb1c3f9, type: 3}
+      objectReference: {fileID: 8300000, guid: 2cc0e3df37e520f49afcedb0d365e971, type: 3}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: voiceOverClips.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: cf2ab923d7a71a542bb2350fa19b5975, type: 3}
+      objectReference: {fileID: 8300000, guid: b2c9a1d2ae3783d42b56be9b3e914704, type: 3}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: voiceOverClips.Array.data[5]
       value: 
-      objectReference: {fileID: 8300000, guid: 251bfeef4ec435b48a21ff6867382753, type: 3}
+      objectReference: {fileID: 8300000, guid: b29b31b97032911469c310ffe6ab45d4, type: 3}
     - target: {fileID: 7900069371373781191, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: voiceOverClips.Array.data[6]
       value: 
-      objectReference: {fileID: 8300000, guid: 5de708f0d79802246990e13fd9765693, type: 3}
+      objectReference: {fileID: 8300000, guid: d2ae2b7696cc9a04b964148ba740a33d, type: 3}
     - target: {fileID: 8694704759844287914, guid: 980bab8736b136741a727fe371d8309e,
         type: 3}
       propertyPath: m_LocalPosition.x

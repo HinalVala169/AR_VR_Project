@@ -6,14 +6,15 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
 
     [Header("Audio Sources")]
-    public AudioSource bgAudioSource; 
-    public AudioSource voiceOverAudioSource; 
-    public CharacterPatrol  character;
+    public AudioSource bgAudioSource;
+    public AudioSource voiceOverAudioSource;
 
     [Header("Audio Clips")]
-    public AudioClip[] voiceOverClips; 
+    public AudioClip[] voiceOverClips;
+    public AudioClip visitAgainClip;
 
-    private int currentClipIndex = 0;
+    public int currentClipIndex = 0;
+    public CharacterPatrol character;
 
     void Awake()
     {
@@ -24,6 +25,7 @@ public class AudioManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
@@ -34,32 +36,66 @@ public class AudioManager : MonoBehaviour
             Debug.LogError("AudioSources are not assigned!");
             return;
         }
+
+        // Only play automatically if no external script is controlling playback
+        PlayNextVoiceOverClip();
     }
 
     public void PlayNextVoiceOverClip()
     {
-        if (currentClipIndex >= voiceOverClips.Length)
+        // Prevent playing a new clip if one is still playing
+        if (voiceOverAudioSource.isPlaying)
         {
-            Debug.Log("All voice-over clips have been played.");
+            Debug.Log("A voice-over clip is already playing. Waiting for it to finish.");
             return;
         }
 
-        
-        AudioClip currentClip = voiceOverClips[character.broadcastIndex];
+        // Ensure we are within the clip array bounds
+        if (currentClipIndex >= voiceOverClips.Length)
+        {
+            Debug.Log("All voice-over clips have been played. Resetting.");
+            currentClipIndex = 0;
+            return;  // Prevents accessing an invalid index
+        }
+
+        // Play the current clip
+        AudioClip currentClip = voiceOverClips[currentClipIndex];
         voiceOverAudioSource.clip = currentClip;
+
+        Debug.Log($"Playing voice-over clip {currentClipIndex}: {currentClip.name}");
+
         FadeBGMusic();
         voiceOverAudioSource.Play();
 
-        //StartCoroutine(WaitForClipToEnd(currentClip.length)); 
-        //currentClipIndex++;
+        StartCoroutine(CheckClipEnd());
     }
 
-    public void ClipToEnd()
+    IEnumerator CheckClipEnd()
     {
-       // yield return new WaitForSeconds(clipLength);
-        voiceOverAudioSource.Stop();
-        Debug.Log("Voice-over clip has finished playing.");
-        LoudBGMusic();
+        while (voiceOverAudioSource.isPlaying)
+        {
+            yield return null;
+        }
+
+        Debug.Log($"Voice-over clip {currentClipIndex} finished.");
+
+        // Move character after the first clip finishes
+        if (currentClipIndex == 0)
+        {
+            Debug.Log("The intro clip has finished playing.");
+            character?.MovePlayer();
+        }
+
+        // Move to the next clip, but don't go out of bounds
+        if (currentClipIndex < voiceOverClips.Length - 1)
+        {
+            currentClipIndex++;
+        }
+        else
+        {
+            Debug.Log("All voice-over clips finished. Resetting.");
+            currentClipIndex = 0;
+        }
     }
 
     public void LoudBGMusic()
@@ -69,6 +105,16 @@ public class AudioManager : MonoBehaviour
 
     public void FadeBGMusic()
     {
-        bgAudioSource.volume = 0.25f;
+        bgAudioSource.volume = 0.15f;
+    }
+
+    public bool IsVoiceOverPlaying()
+    {
+        return voiceOverAudioSource.isPlaying;
+    }
+
+    public bool ClipToEnd()
+    {
+        return !voiceOverAudioSource.isPlaying;
     }
 }

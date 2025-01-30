@@ -13850,16 +13850,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgAudioSource: {fileID: 2786673862518941672}
   voiceOverAudioSource: {fileID: 6563060361996046011}
-  character: {fileID: 6310115965891935002}
   voiceOverClips:
-  - {fileID: 8300000, guid: 27b39b2e2d42a2c4b8080a0294869fa5, type: 3}
-  - {fileID: 8300000, guid: 14a802692a12eb84fa36b44fd890ce16, type: 3}
-  - {fileID: 8300000, guid: 85276090695194b4abf96e04f50a0689, type: 3}
-  - {fileID: 8300000, guid: e1d0b77e8666d1748ad7b5276c3087b4, type: 3}
-  - {fileID: 8300000, guid: 06989ac29abedd540ac68bf6d68d6673, type: 3}
-  - {fileID: 8300000, guid: d1bd7d686093b5548a471464b2ae32e0, type: 3}
-  - {fileID: 8300000, guid: dc3bad3778009d94da941a62c2232477, type: 3}
-  - {fileID: 8300000, guid: eeab72ddffb1f3f49ae572b787426178, type: 3}
+  - {fileID: 8300000, guid: cf9cbfeabc29b6941a370a8477ce99c7, type: 3}
+  - {fileID: 8300000, guid: b55595269efaf644eb6020e664244099, type: 3}
+  - {fileID: 8300000, guid: 6b47fea90ad536d4189a088894bee10a, type: 3}
+  - {fileID: 8300000, guid: 7696e37c5542bd24db96eb0d396d1ba3, type: 3}
+  - {fileID: 8300000, guid: 9dafbf89d5d5de84dbfebb276fc67a64, type: 3}
+  - {fileID: 8300000, guid: df2f035649984bf48930afb466ddc12f, type: 3}
+  - {fileID: 8300000, guid: 1371f3034dd865346a896c9c5a4960db, type: 3}
+  - {fileID: 8300000, guid: b959739aead7d6047a977d948b608cca, type: 3}
+  visitAgainClip: {fileID: 8300000, guid: b959739aead7d6047a977d948b608cca, type: 3}
+  currentClipIndex: 0
+  character: {fileID: 6310115965891935002}
 --- !u!4 &7986002074611374383
 Transform:
   m_ObjectHideFlags: 0

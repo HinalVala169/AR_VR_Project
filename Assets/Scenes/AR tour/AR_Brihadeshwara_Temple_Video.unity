@@ -13508,6 +13508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883200071868868712}
   - component: {fileID: 5924576705058638579}
+  - component: {fileID: 5924576705058638580}
   m_Layer: 0
   m_Name: Audio SourceForVideoTour
   m_TagString: Untagged
@@ -14269,6 +14270,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5924576705058638580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4808979148252640172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9270597728eff58418706fe9b6abcd8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgAudioSource: {fileID: 2227472762725358533}
+  voiceOverAudioSource: {fileID: 5924576705058638579}
+  voiceOverClips:
+  - {fileID: 8300000, guid: 9d6529e49cdd94c4a8027aa0de69c60f, type: 3}
+  - {fileID: 8300000, guid: c561c7be91719c045aafc1150fdf74ad, type: 3}
+  - {fileID: 8300000, guid: a89b83aa5d98a8e40a315f36b2c670b1, type: 3}
+  - {fileID: 8300000, guid: fed1ce3fb714fab478e261e7ef27d948, type: 3}
+  - {fileID: 8300000, guid: f82a21723d20f3a4789f60a6fe15e887, type: 3}
+  - {fileID: 8300000, guid: 2f8057ad242ce6149b7d90c5b2a05ddd, type: 3}
+  - {fileID: 8300000, guid: 79b9c0df047079b409538cb60b439da8, type: 3}
+  - {fileID: 8300000, guid: d44614698e7d73d48a2034c6d1b566d7, type: 3}
+  - {fileID: 8300000, guid: 3f58235a8040fa048a53b69633371897, type: 3}
+  - {fileID: 8300000, guid: 6f417e85ae69c5746a5a4bf3532d8923, type: 3}
+  visitAgainClip: {fileID: 8300000, guid: 6f417e85ae69c5746a5a4bf3532d8923, type: 3}
+  currentClipIndex: 0
+  character: {fileID: 2651570455551359856}
 --- !u!4 &5948718185225536254
 Transform:
   m_ObjectHideFlags: 0

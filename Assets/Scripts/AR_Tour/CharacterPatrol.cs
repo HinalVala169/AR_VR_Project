@@ -30,14 +30,15 @@ public class CharacterPatrol : MonoBehaviour
         animator = GetComponent<Animator>(); // Get the Animator component
     }
 
-    private void OnEnable()
-    {
-        if (patrolCoroutine == null)  // Make sure it doesn't start multiple times
+   
+
+    public void MovePlayer()
+        {
+            if (patrolCoroutine == null)  // Make sure it doesn't start multiple times
         {
             patrolCoroutine = StartCoroutine(Patrol());
         }
-    }
-
+        }
     private void OnDisable()
     {
         if (patrolCoroutine != null)
@@ -67,8 +68,12 @@ public class CharacterPatrol : MonoBehaviour
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
                 }
 
-                // Set animator to walking
-                animator.SetBool("Walk", true);
+                if(!AudioManager.Instance.voiceOverAudioSource.isPlaying)
+                
+                {
+                    animator.SetBool("Walk", true);
+                }
+                
 
                 yield return null; // Wait for the next frame
             }
@@ -83,7 +88,7 @@ public class CharacterPatrol : MonoBehaviour
                 {
                     // Get the index of the patrol point in the broadcast list
                     AudioManager.Instance.PlayNextVoiceOverClip();
-                    Debug.Log("----> :" + broadcastIndex);
+                   // Debug.Log("----> :" + broadcastIndex);
                     OnInfoPointReached?.Invoke(broadcastIndex); // Broadcast the index
                 }
 
