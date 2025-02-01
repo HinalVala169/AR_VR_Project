@@ -51,12 +51,12 @@ public class AudioManager : MonoBehaviour
         }
 
         // Ensure we are within the clip array bounds
-        if (currentClipIndex >= voiceOverClips.Length)
-        {
-            Debug.Log("All voice-over clips have been played. Resetting.");
-            currentClipIndex = 0;
-            return;  // Prevents accessing an invalid index
-        }
+        // if (currentClipIndex >= voiceOverClips.Length)
+        // {
+        //     Debug.Log("All voice-over clips have been played. Resetting.");
+        //     currentClipIndex = 1;
+        //     return;  // Prevents accessing an invalid index
+        // }
 
         // Play the current clip
         AudioClip currentClip = voiceOverClips[currentClipIndex];
@@ -77,12 +77,13 @@ public class AudioManager : MonoBehaviour
             yield return null;
         }
 
-        Debug.Log($"Voice-over clip {currentClipIndex} finished.");
+       // Debug.Log($"Voice-over clip {currentClipIndex} finished.");
+     
 
         // Move character after the first clip finishes
         if (currentClipIndex == 0)
         {
-            Debug.Log("The intro clip has finished playing.");
+           // Debug.Log("The intro clip has finished playing.");
             character?.MovePlayer();
         }
 
@@ -91,11 +92,14 @@ public class AudioManager : MonoBehaviour
         {
             currentClipIndex++;
         }
-        else
+         else
         {
+            
             Debug.Log("All voice-over clips finished. Resetting.");
-            currentClipIndex = 0;
+            currentClipIndex = 1;
+            PlayNextVoiceOverClip();
         }
+       
     }
 
     public void LoudBGMusic()

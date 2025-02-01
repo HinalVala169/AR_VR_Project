@@ -12255,15 +12255,15 @@ MonoBehaviour:
   rotationSpeed: 60
   waitTime: 4
   waitTimeList:
-  - 12
+  - 9
+  - 11
+  - 8
   - 10
-  - 8
-  - 7
-  - 15
-  - 8
-  - 8
-  - 8
-  - 8
+  - 9
+  - 12
+  - 11
+  - 9
+  - 13
   isMainCharacter: 1
 --- !u!1 &2774299545848554000
 GameObject:
